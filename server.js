@@ -64,7 +64,7 @@ app.get('/', (req, res) => {
 });
 
 
-//route for creating schema
+//route for creating schema on mongodb
 app.get('/demo', (req, res) => {
     const demo = new Demo({
         name: 'Tarin',
